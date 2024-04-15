@@ -16,4 +16,5 @@
 - **Dynamic Background Color** according to Music Cover
 - Music Player in Background
 - **Drag Desture** to minimize the Player and **Smooth Transition** between Collapsed Music player and Expanded
-
+- **Auto Next Music Playback**
+- Auto Loop, playing first music in list after last music ended
