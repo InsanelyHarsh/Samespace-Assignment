@@ -22,9 +22,9 @@
 ## Demo and Screenshots
 
 
-<img src="Screenshot01.png" alt="No Internet Screen" width="300" height="200">
-![Alt text](Screenshot02.png "Home Screen")
-![Alt text](Screenshot03.png "Player")
+<img src="Screenshot01.png" alt="No Internet Screen" width="300" height="534">
+<img src="Screenshot02.png" alt="Home Screen" width="300" height="534">
+<img src="Screenshot03.png" alt="Player" width="300" height="534">
 
 <video width="320" height="240" controls>
   <source src="Demo01.mp4" type="video/mp4">
