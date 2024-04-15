@@ -5,8 +5,7 @@
 //  Created by Harsh Yadav on 15/04/24.
 //
 
-import Foundation
-
+import AVKit
 
 extension CMTime {
 	func formatted() -> String {

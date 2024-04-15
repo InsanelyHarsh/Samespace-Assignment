@@ -5,7 +5,7 @@
 //  Created by Harsh Yadav on 15/04/24.
 //
 
-import Foundation
+import UIKit
 
 extension UIImage {
 	var averageColor: UIColor? {
