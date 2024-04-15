@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "64CD5F12-9AE6-4319-9BA2-810C9DD5D4D9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D913F679-A8FB-40F1-B250-2C4F7815EBFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Samespace-Assignment/Home/FetchImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "imageLoaded(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D913F679-A8FB-40F1-B250-2C4F7815EBFE - 5bc9e1e69ca00519"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.FetchImageView.imageLoaded(with: Swift.Optional&lt;Foundation.Data&gt;) -&gt; some"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/Home/FetchImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "D913F679-A8FB-40F1-B250-2C4F7815EBFE - 5bc9e1e69ca00519"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.FetchImageView.imageLoaded(with: Swift.Optional&lt;Foundation.Data&gt;) -&gt; some"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/Home/FetchImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "D913F679-A8FB-40F1-B250-2C4F7815EBFE - 5bc9e1e69ca00519"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.FetchImageView.imageLoaded(with: Swift.Optional&lt;Foundation.Data&gt;) -&gt; some"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/Home/FetchImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53D3A5E4-734A-4421-A862-C12AD2DEFBFB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Samespace-Assignment/Home/FetchImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "imageLoaded(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "53D3A5E4-734A-4421-A862-C12AD2DEFBFB - 5bc9e1e69ca005a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.FetchImageView.imageLoaded(with: Swift.Optional&lt;Foundation.Data&gt;) -&gt; some"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/Home/FetchImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "53D3A5E4-734A-4421-A862-C12AD2DEFBFB - 5bc9e1e69ca005a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.FetchImageView.imageLoaded(with: Swift.Optional&lt;Foundation.Data&gt;) -&gt; some"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/Home/FetchImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "672">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90D50382-9A0B-48D7-8DBC-0D841011EA6C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Samespace-Assignment/MusicPlayer/AudioPlayerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "playAudio(with:mediaDetails:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "90D50382-9A0B-48D7-8DBC-0D841011EA6C - 828826b32769a0d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.AudioPlayerViewModel.playAudio(with: Swift.String) -&gt; ()"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/MusicPlayer/AudioPlayerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+               <Location
+                  uuid = "90D50382-9A0B-48D7-8DBC-0D841011EA6C - 3630faf4857d49a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.AudioPlayerViewModel.playAudio(with: Swift.String, title: Swift.String, ablumTitle: Swift.String, artist: Swift.String) -&gt; ()"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/MusicPlayer/AudioPlayerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1404">
+               </Location>
+               <Location
+                  uuid = "90D50382-9A0B-48D7-8DBC-0D841011EA6C - 1c6fc143a6578e8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.AudioPlayerViewModel.playAudio(with: Swift.String, mediaDetails: Samespace_Assignment.ControlCentreMediaDetails) -&gt; ()"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/MusicPlayer/AudioPlayerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A1A4D75-D310-4752-A0A6-19AC43CC7659"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Samespace-Assignment/MusicPlayer/AudioPlayerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "playAudio(with:mediaDetails:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3A1A4D75-D310-4752-A0A6-19AC43CC7659 - 828826b32769a071"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.AudioPlayerViewModel.playAudio(with: Swift.String) -&gt; ()"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/MusicPlayer/AudioPlayerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "1220">
+               </Location>
+               <Location
+                  uuid = "3A1A4D75-D310-4752-A0A6-19AC43CC7659 - 3630faf4857d4f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.AudioPlayerViewModel.playAudio(with: Swift.String, title: Swift.String, ablumTitle: Swift.String, artist: Swift.String) -&gt; ()"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/MusicPlayer/AudioPlayerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1640">
+               </Location>
+               <Location
+                  uuid = "3A1A4D75-D310-4752-A0A6-19AC43CC7659 - 1c6fc143a6578930"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.AudioPlayerViewModel.playAudio(with: Swift.String, mediaDetails: Samespace_Assignment.ControlCentreMediaDetails) -&gt; ()"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/MusicPlayer/AudioPlayerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1412">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57D0D1B9-1110-4D51-8342-4665CBDD30A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Samespace-Assignment/MusicPlayer/AudioPlayerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "playAudio(with:mediaDetails:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "57D0D1B9-1110-4D51-8342-4665CBDD30A9 - 828826b32769a050"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.AudioPlayerViewModel.playAudio(with: Swift.String) -&gt; ()"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/MusicPlayer/AudioPlayerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1228">
+               </Location>
+               <Location
+                  uuid = "57D0D1B9-1110-4D51-8342-4665CBDD30A9 - 3630faf4857d516"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.AudioPlayerViewModel.playAudio(with: Swift.String, title: Swift.String, ablumTitle: Swift.String, artist: Swift.String) -&gt; ()"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/MusicPlayer/AudioPlayerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1652">
+               </Location>
+               <Location
+                  uuid = "57D0D1B9-1110-4D51-8342-4665CBDD30A9 - 1c6fc143a6578911"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Samespace_Assignment.AudioPlayerViewModel.playAudio(with: Swift.String, mediaDetails: Samespace_Assignment.ControlCentreMediaDetails) -&gt; ()"
+                  moduleName = "Samespace-Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshyadav/Desktop/Code/Samespace-Assignment/Samespace-Assignment/MusicPlayer/AudioPlayerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1420">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CB51F00-1F09-4B27-9501-F88E9A69A0FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Samespace-Assignment/Utility/ReusableViews/FetchImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

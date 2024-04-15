@@ -1,0 +1,35 @@
+Thanks for showing your interest in iOS developer position. As part of the evaluation process, we're inviting you to create a music app that demonstrates your expertise and creativity. You will need to create functional music app based on following criteria.
+
+
+Figma: https://www.figma.com/file/8yMOOlWL8pEeSB23u75MQP/Mobile-Developer-Assignment?type=design&node-id=0-1&mode=design
+
+UI Design
+- Implement the UI design using Swift UI/Storyboard. You can find the design on Figma.
+- Create a fluid interface with smooth animations & transitions
+- Change gradient background based on the song's cover image
+
+
+API: https://cms.samespace.com/items/songs
+Data Handling
+- Utilize Rest API to fetch and display the song lists fro our API
+- Implement a tab view to showcase "For You" and "Top Tracks"
+- You can fetch iage based on cover key fro the api. eg. https://
+cms.saespace.co/assets/{COVER_IMAGE_ID}
+
+
+Music Playback
+- Integrate usic playback controls (play, pause, next, previousL
+- Enable swipe gestures for song changes and player iniization.
+
+Bonuses
+- Enhance the app with morph aniations for view controller
+transitions
+- Enable horizontal swipe for tab navigation
+- Incorporate haptic feedback for tab changes and play/pause actions.
+
+Submission
+Share your copleted project within 7 days via a GitHub repository link
+- Please ensure your app aligns with the provided UI design & eets
+the functionality requireents. Your creativity in enhancing the user
+experience is encouraged
+- We're excited to see your iOS skills in action. Best of luck!
