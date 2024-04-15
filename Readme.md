@@ -27,6 +27,7 @@
 <img src="Screenshot03.png" alt="Player" width="300" height="554">
 <img src="Screenshot04.png" alt="Shimmer Animation" width="300" height="554">
 <img src="Screenshot05.png" alt="Reload Feature" width="300" height="554">
+<img src="Screenshot06.png" alt="Player" width="300" height="554">
 
 <video width="320" height="240" controls>
   <source src="Demo01.mp4" type="video/mp4">

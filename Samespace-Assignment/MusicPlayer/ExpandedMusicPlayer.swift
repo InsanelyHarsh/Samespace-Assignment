@@ -30,7 +30,7 @@ struct ExpandedMusicPlayer: View {
 				DynamicColorView(urlString: URLConstants.songCoverImage(imageCoverID: songList[currentSongIndex].cover))
 					.ignoresSafeArea()
 
-                VStack(spacing: 15) {
+                VStack(spacing: 35) {
                     Capsule()
                         .fill(.gray)
                         .frame(width: 40, height: 5, alignment: .center)
@@ -59,13 +59,12 @@ struct ExpandedMusicPlayer: View {
 												.resizable()
 										}
 									})
-									.frame(width: size.width*0.7, height: size.height)
+									.frame(width: size.height, height: size.height)
 									.clipShape(RoundedRectangle(cornerRadius: animateContent ? 15 : 5, style: .continuous))
 									.tag(index)
                                 }
                             }
                             .matchedGeometryEffect(id: "ARTWORK", in: animation)
-                            .frame( height: size.width - 50)
 							.padding(.vertical, size.height < 700 ? 10 : 30)
                             .tabViewStyle(.page(indexDisplayMode: .never))
                         }
@@ -147,13 +146,15 @@ struct ExpandedMusicPlayer: View {
         GeometryReader {
             let size = $0.size
             
-            let spacing = size.height*0.04
+            let spacing = size.height*0.08
             
-            VStack(spacing: spacing) {
+            VStack(spacing: size.height*0.1) {
                 VStack(spacing: spacing) {
-                    VStack(alignment: .center, spacing: 4) {
+					
+					//Name and Artist
+                    VStack(alignment: .center, spacing: 2) {
                         Text(songList[currentSongIndex].name)
-                            .font(.title3)
+                            .font(.title2)
                             .fontWeight(.semibold)
                         
                         Text(songList[currentSongIndex].artist)
@@ -161,34 +162,37 @@ struct ExpandedMusicPlayer: View {
                     }
                     .frame(maxWidth: .infinity,alignment: .center)
                     
-                    //Timing Indicator
-                    ZStack(alignment: .leading) {
-                        Capsule()
-                            .fill(.ultraThinMaterial)
-                            .frame(width: size.width*0.95, height: 5)
+					//Timing Indicator
+					VStack(spacing: 5){
+						ZStack(alignment: .leading) {
+							Capsule()
+								.fill(.ultraThinMaterial)
+								.frame(width: size.width*0.98, height: 5)
+								
+							Capsule()
+								.foregroundStyle(.white)
+								.frame(minWidth: .zero)
+								.frame(width: max(0, (audioPlayerViewModel.musicDuration != .zero ? audioPlayerViewModel.currentMusicTime.seconds/audioPlayerViewModel.musicDuration.seconds : 0)*size.width*0.98))
+								.frame(height: 5)
+						}
+						.padding(.top, spacing)
+						
+						
+						HStack {
+							Text(audioPlayerViewModel.currentMusicTime.formatted())
+								.font(.caption)
+								.foregroundStyle(.gray)
 							
-                        Capsule()
-                            .foregroundStyle(.white)
-							.frame(minWidth: .zero)
-							.frame(width: max(0, (audioPlayerViewModel.musicDuration != .zero ? audioPlayerViewModel.currentMusicTime.seconds/audioPlayerViewModel.musicDuration.seconds : 0)*size.width*0.95))
-							.frame(height: 5)
-                    }
-                    .padding(.top, spacing)
-                    
-                    HStack {
-                        Text(audioPlayerViewModel.currentMusicTime.formatted())
-                            .font(.caption)
-                            .foregroundStyle(.gray)
-                        
-                        Spacer(minLength: 0)
-                        
-                        Text(audioPlayerViewModel.musicDuration.formatted())
-                            .font(.caption)
-                            .foregroundStyle(.gray)
-                    }
+							Spacer(minLength: 0)
+							
+							Text(audioPlayerViewModel.musicDuration.formatted())
+								.font(.caption)
+								.foregroundStyle(.gray)
+						}
+					}
                 }
-                
-                /// Play Back Controls
+				
+                // Play Back Controls
                 HStack(spacing: size.width*0.18) {
                     Button {
                         self.currentSongIndex -= 1
@@ -204,7 +208,7 @@ struct ExpandedMusicPlayer: View {
 							self.audioPlayerViewModel.isPlaying ? audioPlayerViewModel.pauseMusic() : audioPlayerViewModel.playMusic()
 						}
                     } label: {
-                        Image(systemName: audioPlayerViewModel.isPlaying ? "pause.fill" : "play.fill")
+                        Image(systemName: audioPlayerViewModel.isPlaying ? "pause.circle.fill" : "play.circle.fill")
                             .font(size.height < 300 ? .largeTitle : .system(size: 50))
                     }
 					.foregroundStyle(.white)
@@ -220,6 +224,7 @@ struct ExpandedMusicPlayer: View {
                 }
 				.sensoryFeedback(.increase, trigger: currentSongIndex)
             }
+			.padding(.bottom, 30)
         }
     }
 }
