@@ -17,4 +17,16 @@
 - Music Player in Background
 - **Drag Desture** to minimize the Player and **Smooth Transition** between Collapsed Music player and Expanded
 - **Auto Next Music Playback**
-- Auto Loop, playing first music in list after last music ended
+- Auto Loop, playing the first music in the list after the last music ended
+
+## Demo and Screenshots
+
+
+<img src="Screenshot01.png" alt="No Internet Screen" width="300" height="200">
+![Alt text](Screenshot02.png "Home Screen")
+![Alt text](Screenshot03.png "Player")
+
+<video width="320" height="240" controls>
+  <source src="Demo01.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
